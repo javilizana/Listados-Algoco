@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     int n , k; // n = cant de niños | k = cant de comandos
     
-    if (!(cin >> n >> k)) return 0; //lee el n y k
+    if (!(cin >> n >> k)) return 0; //si no lee el n y k
 
     stack<int> seguimiento; //solo acepta ints
 
