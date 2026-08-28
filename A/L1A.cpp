@@ -11,7 +11,7 @@ int main(){
 
     stack<int> seguimiento; //solo acepta ints
 
-    seguimiento.push(0); //la pos 0 siempre parte con el huev
+    seguimiento.push(0); //la pos 0 siempre parte con el huevo
 
     for (int i = 0; i < k; ++i){
         string comando;
