@@ -36,7 +36,7 @@ int main(){
     vector<long long> perdedores = {0}; //lista que guarda los valores de N en un estado perdedor
 
     //calculamos perdedores hasta cubrir el limite max de 10^9
-    for(long long num = 1; perdedores.back() <= 100000; num++){
+    for(long long num = 1; perdedores.back() <= 15000000; num++){
         bool es_perdedor = true;
 
         //recorremos los perdedores previos para ver si num es ganador
